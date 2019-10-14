@@ -14,7 +14,7 @@ public class CoreLauncher {
                         final String agentJarPath,
                         final String token) throws Exception{
         //加载agent
-
+        attachAgent(targeJvmPid, agentJarPath, token);
     }
 
     //加载agent
