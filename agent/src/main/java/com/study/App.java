@@ -14,6 +14,11 @@ public class App
                 while (true) {
                     Account account = new Account();
                     account.operation();
+                    try {
+                        Thread.sleep(5000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });

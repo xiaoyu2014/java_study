@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e0286c1-8697-4739-b91b-304d747de21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent/src/main/resources/META-INFO/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +47,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RunDashboard">
