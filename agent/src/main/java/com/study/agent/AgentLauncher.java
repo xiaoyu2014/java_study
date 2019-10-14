@@ -13,7 +13,7 @@ public class AgentLauncher {
 
     public static void premain(String featureString, Instrumentation inst) {
 
-        System.out.println("premain featureString     :" + featureString);
+        System.out.println("premain featureString:" + featureString);
 
         inst.addTransformer(new ClassFileTransformer() {
             @Override
@@ -29,7 +29,7 @@ public class AgentLauncher {
 
     public static void agentmain(String featureString, Instrumentation inst) {
 
-        System.out.println("agentmain featureString     :" + featureString);
+        System.out.println("agentmain featureString:" + featureString);
 
         inst.addTransformer(new ClassFileTransformer() {
             @Override
