@@ -60,6 +60,9 @@
                   <Can-Redefine-Classes>true</Can-Redefine-Classes>
                   <Can-Retransform-Classes>true</Can-Retransform-Classes>
                 </manifestEntries>
+                <manifest>
+                  <mainClass>com.study.App</mainClass>
+                </manifest>
               </archive>
             </configuration>
           </execution>

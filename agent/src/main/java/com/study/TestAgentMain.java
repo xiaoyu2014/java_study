@@ -19,8 +19,8 @@ public class TestAgentMain {
         for (VirtualMachineDescriptor vmd : list) {
             //如果虚拟机的名称为 xxx 则 该虚拟机为目标虚拟机，获取该虚拟机的 pid
             //然后加载 agent.jar 发送给该虚拟机
-            System.out.println(vmd.displayName());
-            if (vmd.displayName().endsWith("com.study.TestAgentMain")) {
+            if (vmd.displayName().endsWith("com.study.App")) {
+                System.out.println("TestAgentMain1："+vmd.displayName());
                 VirtualMachine virtualMachine = VirtualMachine.attach(vmd.id());
                 virtualMachine.loadAgent("/Users/yuqi12/.m2/repository/com/study/agent/1.0-SNAPSHOT/agent-1.0-SNAPSHOT-jar-with-dependencies.jar");
                 virtualMachine.detach();
