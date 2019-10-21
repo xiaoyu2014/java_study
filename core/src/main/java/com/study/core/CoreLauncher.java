@@ -13,6 +13,8 @@ public class CoreLauncher {
     public CoreLauncher(final String targeJvmPid,
                         final String agentJarPath,
                         final String token) throws Exception{
+
+        System.out.println("agent");
         //加载agent
         attachAgent(targeJvmPid, agentJarPath, token);
     }
