@@ -28,7 +28,7 @@ public class CoreLauncher {
         try{
             virtualMachine = VirtualMachine.attach(targetJvmPid);
             if(virtualMachine != null){
-                virtualMachine.loadAgent(agentJarPath, cfg);
+                virtualMachine.loadAgent(agentJarPath);
             }
         }finally {
             if(null != virtualMachine){
