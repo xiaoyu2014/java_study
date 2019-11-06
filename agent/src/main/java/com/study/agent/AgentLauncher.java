@@ -17,7 +17,7 @@ public class AgentLauncher {
 
         System.out.println("premain featureString:" + featureString);
 
-        /*inst.addTransformer(new ClassFileTransformer() {
+        inst.addTransformer(new ClassFileTransformer() {
             @Override
             public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined,
                                     ProtectionDomain protectionDomain, byte[] classfileBuffer)
@@ -33,7 +33,7 @@ public class AgentLauncher {
 
                 return classfileBuffer;
             }
-        }, true);*/
+        }, true);
 
 
 
