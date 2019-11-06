@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5ed091-1c33-4f56-9aae-9505fb668be8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
