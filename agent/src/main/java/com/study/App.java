@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("app main has execute");
+        System.out.println(System.currentTimeMillis() + ": app main has execute");
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
