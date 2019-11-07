@@ -22,7 +22,7 @@ public class TestAgentMain {
             if (vmd.displayName().endsWith("com.study.App")) {
                 System.out.println("TestAgentMain1："+vmd.displayName());
                 VirtualMachine virtualMachine = VirtualMachine.attach(vmd.id());
-                virtualMachine.loadAgent("/Users/yuqi12/.m2/repository/com/study/agent/1.0-SNAPSHOT/agent-1.0-SNAPSHOT-jar-with-dependencies.jar");
+                //virtualMachine.loadAgent("/Users/yuqi12/.m2/repository/com/study/agent/1.0-SNAPSHOT/agent-1.0-SNAPSHOT-jar-with-dependencies.jar");
                 virtualMachine.detach();
             }
         }

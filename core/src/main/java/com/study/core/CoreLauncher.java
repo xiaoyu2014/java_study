@@ -40,7 +40,7 @@ public class CoreLauncher {
 
     public static void main(String[] args) {
         try {
-
+            System.out.println("main has execute");
             // check args
             if (args.length != 3
                     || StringUtils.isBlank(args[0])
