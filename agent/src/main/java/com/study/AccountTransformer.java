@@ -47,7 +47,8 @@ public class AccountTransformer implements ClassFileTransformer {
 
     public byte[] transform(ClassLoader l, String className, Class<?> c,
                             ProtectionDomain pd, byte[] b) throws IllegalClassFormatException {
-        if (!className.equals("TransClass")) {
+        System.out.println("transform:"+className);
+        if (!className.equals("Account")) {
             return null;
         }
         return getBytesFromFile(accountOperation2);

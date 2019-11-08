@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5ed091-1c33-4f56-9aae-9505fb668be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/AccountTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/study/core/TestAgentMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/src/main/java/com/study/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/module/src/main/java/com/study/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/AccountTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/AccountTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/src/main/java/com/study/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/module/src/main/java/com/study/Account.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
