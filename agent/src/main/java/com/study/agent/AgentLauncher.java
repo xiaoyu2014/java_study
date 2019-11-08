@@ -4,6 +4,7 @@ import com.study.Transformer;
 
 import java.lang.instrument.ClassDefinition;
 import java.lang.instrument.Instrumentation;
+import java.lang.instrument.UnmodifiableClassException;
 
 /**
  * @Author: yuqi
@@ -25,6 +26,11 @@ public class AgentLauncher {
         System.out.println("agentmain featureString:" + featureString);
 
         inst.addTransformer(new Transformer(),true);
+        try {
+            inst.retransformClasses(new Class<?>[]{Class.forName("com.study.Account")});
+        } catch (Exception e) {
+            System.out.println("agentmain after error"+e);
+        }
 
         System.out.println("agentmain after");
     }

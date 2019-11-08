@@ -17,10 +17,10 @@ public class Transformer implements ClassFileTransformer {
     public static final String accountOperation2 = "/Users/yuqi12/Documents/gitproject/javastudy/module/target/classes/com/study/Account.2.class";
 
     public static byte[] getBytesFromFile(String fileName) {
-        try {
-            // precondition
-            File file = new File(fileName);
-            InputStream is = new FileInputStream(file);
+        File file = new File(fileName);
+        InputStream is = null;
+        try{
+            is = new FileInputStream(file);
             long length = file.length();
             byte[] bytes = new byte[(int) length];
 
@@ -36,12 +36,20 @@ public class Transformer implements ClassFileTransformer {
                 throw new IOException("Could not completely read file "
                         + file.getName());
             }
-            is.close();
+            System.out.println(fileName + "已替换");
             return bytes;
         } catch (Exception e) {
             System.out.println("error occurs in _ClassTransformer!"
                     + e.getClass().getName());
             return null;
+        }finally {
+            if(is != null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
