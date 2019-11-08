@@ -20,6 +20,8 @@ public class AgentLauncher {
         System.out.println("premain featureString:" + featureString);
 
         inst.addTransformer(new AccountTransformer());
+
+        System.out.println("premain after");
     }
 
     public static void agentmain(final String featureString, final Instrumentation inst) {
@@ -28,6 +30,7 @@ public class AgentLauncher {
 
         inst.addTransformer(new AccountTransformer());
 
+        System.out.println("agentmain after");
     }
 
 }
