@@ -14,7 +14,7 @@ import java.security.ProtectionDomain;
  */
 public class Transformer implements ClassFileTransformer {
 
-    public static final String accountOperation2 = "/Users/yuqi12/Documents/gitproject/javastudy/module/target/classes/com/study/Account.class.2";
+    public static final String accountOperation2 = "/Users/yuqi12/Documents/gitproject/javastudy/module/target/classes/com/study/Account.2.class";
 
     public static byte[] getBytesFromFile(String fileName) {
         try {
