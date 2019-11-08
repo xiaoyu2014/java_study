@@ -15,7 +15,7 @@ public class AgentLauncher {
 
         System.out.println("premain featureString:" + featureString);
 
-        inst.addTransformer(new Transformer());
+        inst.addTransformer(new Transformer(),true);
 
         System.out.println("premain after");
     }
@@ -24,7 +24,7 @@ public class AgentLauncher {
 
         System.out.println("agentmain featureString:" + featureString);
 
-        inst.addTransformer(new Transformer());
+        inst.addTransformer(new Transformer(),true);
 
         System.out.println("agentmain after");
     }
