@@ -1,5 +1,7 @@
 package com.study.agent;
 
+import com.study.AccountTransformer;
+
 import java.io.File;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
@@ -17,24 +19,14 @@ public class AgentLauncher {
 
         System.out.println("premain featureString:" + featureString);
 
-        inst.addTransformer(new ClassFileTransformer() {
-            @Override
-            public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined,
-                                    ProtectionDomain protectionDomain, byte[] classfileBuffer)
-                    throws IllegalClassFormatException {
-                System.out.println("premain load Class     :" + className);
-
-                return classfileBuffer;
-            }
-        }, true);
-
-
-
+        inst.addTransformer(new AccountTransformer());
     }
 
     public static void agentmain(final String featureString, final Instrumentation inst) {
 
         System.out.println("agentmain featureString:" + featureString);
+
+        inst.addTransformer(new AccountTransformer());
 
     }
 

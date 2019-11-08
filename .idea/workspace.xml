@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5ed091-1c33-4f56-9aae-9505fb668be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/AccountTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/study/core/TestAgentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/src/main/java/com/study/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/study/core/CoreLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/module/src/main/java/com/study/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/agent/src/main/java/com/study/agent/AgentLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +49,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/src/main/java/com/study" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.core" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/src/main/java/com/study" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -69,7 +76,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Account">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.Account" />
+      <module name="module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAgentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.TestAgentMain" />
       <module name="agent" />
@@ -125,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Account" />
         <item itemvalue="Application.TestAgentMain" />
       </list>
     </recent_temporary>
