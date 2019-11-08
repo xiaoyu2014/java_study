@@ -1,13 +1,9 @@
 package com.study.agent;
 
-import com.study.AccountTransformer;
+import com.study.Transformer;
 
-import java.io.File;
-import java.lang.instrument.ClassFileTransformer;
-import java.lang.instrument.IllegalClassFormatException;
+import java.lang.instrument.ClassDefinition;
 import java.lang.instrument.Instrumentation;
-import java.security.ProtectionDomain;
-import java.util.jar.JarFile;
 
 /**
  * @Author: yuqi
@@ -19,7 +15,7 @@ public class AgentLauncher {
 
         System.out.println("premain featureString:" + featureString);
 
-        inst.addTransformer(new AccountTransformer());
+        inst.addTransformer(new Transformer());
 
         System.out.println("premain after");
     }
@@ -28,7 +24,7 @@ public class AgentLauncher {
 
         System.out.println("agentmain featureString:" + featureString);
 
-        inst.addTransformer(new AccountTransformer());
+        inst.addTransformer(new Transformer());
 
         System.out.println("agentmain after");
     }
