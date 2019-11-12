@@ -12,9 +12,9 @@ import java.security.ProtectionDomain;
  * @Author: yuqi
  * @Date: 2019-11-08 11:49
  */
-public class Transformer implements ClassFileTransformer {
+public class AttachTransformer implements ClassFileTransformer {
 
-    public static final String accountOperation2 = "/Users/yuqi12/Documents/gitproject/javastudy/module/target/classes/com/study/Account.2.class";
+    public static final String accountOperation2 = "/Users/yuqi12/Documents/gitproject/javastudy/module/target/classes/com/study/Account.attach.class";
 
     public static byte[] getBytesFromFile(String fileName) {
         File file = new File(fileName);
