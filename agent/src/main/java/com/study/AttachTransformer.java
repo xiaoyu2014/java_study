@@ -36,7 +36,7 @@ public class AttachTransformer implements ClassFileTransformer {
                 throw new IOException("Could not completely read file "
                         + file.getName());
             }
-            System.out.println(fileName + "已替换");
+            System.out.println(AttachTransformer.class +":"+fileName + "已替换");
             return bytes;
         } catch (Exception e) {
             System.out.println("error occurs in _ClassTransformer!"
