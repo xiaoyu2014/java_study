@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="module" />
         <module name="core" />
+        <module name="common" />
         <module name="agent" />
       </profile>
     </annotationProcessing>

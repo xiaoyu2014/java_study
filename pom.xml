@@ -12,6 +12,7 @@
         <module>agent</module>
         <module>module</module>
         <module>core</module>
+        <module>common</module>
     </modules>
 
 </project>

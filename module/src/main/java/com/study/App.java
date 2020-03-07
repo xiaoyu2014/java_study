@@ -10,7 +10,6 @@ public class App
     {
         System.out.println(System.currentTimeMillis() + ": app main has execute");
         Thread thread = new Thread(new Runnable() {
-            @Override
             public void run() {
                 while (true) {
                     Account account = new Account();
