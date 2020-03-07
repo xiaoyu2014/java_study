@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5ed091-1c33-4f56-9aae-9505fb668be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/study/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/study/common/type/JsonType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/study/common/utils/FastJsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/study/common/utils/JacksonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/src/main/java/com/study/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/module/src/main/java/com/study/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/study/common/utils/JacksonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/study/common/utils/JacksonUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JacksonUtils">
+  <component name="RunManager" selected="Application.FastJsonUtils">
     <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.Account" />
       <module name="module" />
@@ -191,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JacksonUtils" />
         <item itemvalue="Application.FastJsonUtils" />
+        <item itemvalue="Application.JacksonUtils" />
         <item itemvalue="Application.Account" />
         <item itemvalue="Application.TestAgentMain" />
       </list>

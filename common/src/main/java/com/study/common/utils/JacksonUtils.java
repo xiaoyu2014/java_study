@@ -2,7 +2,6 @@ package com.study.common.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.study.common.Result;
-import com.study.common.type.JsonType;
 
 /**
  * @Author: yuqi
